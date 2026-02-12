@@ -1,7 +1,14 @@
-echo "# kimberlywamboi" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/kimberlywamboi8-commits/kimberlywamboi.git
-git push -u origin main
+HELLO THERE
+i'm kimberly wambui 
+AUTOMOTIVE ENGINEERING TECHNICIAN AND ASPIRING SOFTWARE DEVELOPER
+## ABOUT ME
+i am passionate about combining automotive engineering and technology tp create smarter and more effective system 
+currently expanding my skill in programming 
+##PROJECTS
+looking to collaboration on automotive and tech projects
+practice programs and exercise 
+##connect with me 
+GITHUB ;https;//github.com/kimberlywamboi8
+EMAIL ;kimberlywqamboi8gmail.com
+
+

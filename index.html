@@ -6,187 +6,87 @@
   <title>Kimberly Wambui | Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="hero-orb hero-orb-left" aria-hidden="true"></div>
-    <div class="hero-orb hero-orb-right" aria-hidden="true"></div>
+  <main class="profile-shell">
     <div class="container">
-      <nav class="nav-bar">
-        <a class="brand" href="#home">
-          <span class="brand-mark">KW</span>
-          <span class="brand-text">Kimberly Wambui</span>
-        </a>
-        <div class="nav-links">
+      <p class="profile-path">Kimberly-Wambui / README.md</p>
+
+      <header class="profile-hero" id="home">
+        <div class="profile-banner">
+          <h1>Kimberly</h1>
+          <div class="banner-wave banner-wave-top" aria-hidden="true"></div>
+          <div class="banner-wave banner-wave-bottom" aria-hidden="true"></div>
+        </div>
+
+        <p class="profile-role">Web Designer | Front-End Learner | HTML | CSS | JavaScript</p>
+
+        <nav class="profile-nav" aria-label="Primary">
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
-          <a href="#gallery">Gallery</a>
+          <a href="#skills">Tech Stack</a>
           <a href="#contact">Contact</a>
-        </div>
-      </nav>
+          <a href="week4.html">Week 4 JS</a>
+          <a href="weather.html">Weather App</a>
+        </nav>
+      </header>
 
-      <section class="hero" id="home">
-        <div class="hero-copy">
-          <p class="eyebrow">Web Designer / Currently Learning</p>
-          <h1>Creating simple, beautiful websites while growing my skills in web design.</h1>
-          <p class="lead">
-            I am Kimberly Wambui, a web designer who is currently learning by building real
-            projects and improving my creativity with HTML, CSS, and JavaScript.
-          </p>
-          <ul class="hero-highlights" aria-label="Core strengths">
-            <li>Learning through hands-on personal projects</li>
-            <li>Designing clean layouts with clear structure</li>
-            <li>Building confidence in front-end development</li>
-          </ul>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">View projects</a>
-            <a class="button button-secondary" href="#contact">Contact me</a>
-          </div>
-        </div>
+      <section class="profile-section" id="about">
+        <h2>About Me</h2>
+        <ul class="info-list">
+          <li>Currently learning web design and front-end development</li>
+          <li>Building practical projects that strengthen my creativity and coding confidence</li>
+          <li>Focused on clean layouts, responsive design, and improving with every project</li>
+          <li>Open to learning, collaboration, and opportunities to grow professionally</li>
+        </ul>
+      </section>
 
-        <aside class="hero-card">
-          <p class="card-label">Current Focus</p>
-          <h2 class="card-title">Practicing design and development through projects that solve everyday problems.</h2>
-          <p class="card-copy">
-            My work so far includes practical apps that have helped me learn interface design,
-            layout styling, JavaScript logic, and responsive thinking.
-          </p>
-          <div class="stat-grid">
-            <article>
-              <span>03</span>
-              <p>projects completed in my learning journey</p>
-            </article>
-            <article>
-              <span>HTML</span>
-              <p>structuring accessible and organized pages</p>
-            </article>
-            <article>
-              <span>CSS</span>
-              <p>styling modern and responsive layouts</p>
-            </article>
-            <article>
-              <span>JS</span>
-              <p>adding logic and interaction to my projects</p>
-            </article>
-          </div>
-        </aside>
+      <section class="profile-section" id="projects">
+        <h2>Projects</h2>
+        <div class="project-stack">
+          <article class="project-item">
+            <span class="project-number">01</span>
+            <h3>Calculator</h3>
+            <p>Built to practice JavaScript logic, user input, and clean interface structure.</p>
+          </article>
+          <article class="project-item">
+            <span class="project-number">02</span>
+            <h3>Weather App</h3>
+            <p>Created to display useful weather information in a simple responsive layout.</p>
+          </article>
+          <article class="project-item">
+            <span class="project-number">03</span>
+            <h3>To-Do List</h3>
+            <p>Designed to improve my skills in interaction, organization, and front-end styling.</p>
+          </article>
+          <article class="project-item">
+            <span class="project-number">04</span>
+            <h3>Student Grade Tracker</h3>
+            <p>Used arrays, objects, and functions to build a practical JavaScript learning project.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="profile-section" id="skills">
+        <h2>Tech Stack</h2>
+        <div class="badge-list">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Responsive Design</span>
+          <span>Web Design</span>
+        </div>
+      </section>
+
+      <section class="profile-section" id="contact">
+        <h2>Contact</h2>
+        <p class="contact-copy">Interested in my work or my learning journey? Let's connect.</p>
+        <a class="contact-link" href="mailto:kimberlywamboi8@gmail.com">kimberlywamboi8@gmail.com</a>
       </section>
     </div>
-  </header>
-
-  <main>
-    <section class="section" id="about">
-      <div class="container split-section">
-        <div>
-          <p class="section-tag">About</p>
-          <h2>A personal portfolio that reflects my growth, creativity, and dedication to learning.</h2>
-        </div>
-        <div class="about-copy">
-          <p>
-            I am a web designer who is currently learning and improving through practical projects.
-            I enjoy creating interfaces that feel clear, simple, and welcoming to users.
-          </p>
-          <p>
-            Every project I build helps me strengthen my design eye and my front-end skills, while
-            teaching me how to create websites that work well on different screen sizes.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="projects">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-tag">Selected Projects</p>
-          <h2>Projects I have created while learning web design and front-end development.</h2>
-        </div>
-
-        <div class="project-list">
-          <article class="project-card">
-            <p class="project-index">01</p>
-            <h3>Calculator</h3>
-            <p>A calculator project that helped me practice JavaScript logic, button interactions, and clear interface layout.</p>
-            <div class="project-meta">
-              <span>HTML / CSS / JavaScript</span>
-              <a href="#contact">Ask about this project</a>
-            </div>
-          </article>
-          <article class="project-card">
-            <p class="project-index">02</p>
-            <h3>Weather App</h3>
-            <p>A weather project that helped me learn how to display useful information in a clean design with responsive structure.</p>
-            <div class="project-meta">
-              <span>API Practice / Responsive Design</span>
-              <a href="#contact">Ask about this project</a>
-            </div>
-          </article>
-          <article class="project-card">
-            <p class="project-index">03</p>
-            <h3>To-Do List</h3>
-            <p>A to-do list project that helped me practice organizing content, creating interaction, and designing a useful interface.</p>
-            <div class="project-meta">
-              <span>UI Practice / JavaScript Basics</span>
-              <a href="#contact">Ask about this project</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section><section class="section" id="gallery">
-  <div class="container">
-    <div class="section-heading">
-      <p class="section-tag">Featured Work</p>
-      <h2>Selected visuals that present my projects, design thinking, and growing front-end skills.</h2>
-    </div>
-
-    <div class="gallery-grid">
-      <figure class="gallery-item gallery-item-large">
-        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Laptop showing code and web design work">
-        <figcaption>Front-end project development focused on structure, styling, and clean user experience.</figcaption>
-      </figure>
-
-      <figure class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=700&q=80" alt="Dashboard style web interface on a screen">
-        <figcaption>Weather app layout designed to display important information in a clear and responsive way.</figcaption>
-      </figure>
-
-      <figure class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80" alt="Person working on a laptop with notes nearby">
-        <figcaption>My learning process combines design practice, coding experiments, and consistent skill building.</figcaption>
-      </figure>
-
-      <figure class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=700&q=80" alt="Mobile app and interface design screens">
-        <figcaption>Interface design practice exploring spacing, hierarchy, and modern visual presentation.</figcaption>
-      </figure>
-
-      <figure class="gallery-item gallery-item-wide">
-        <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=900&q=80" alt="Creative workspace with laptop, sketches, and design materials">
-        <figcaption>Professional growth through project building, layout exploration, and real-world front-end practice.</figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
-    <section class="section section-accent" id="contact">
-      <div class="container contact-block">
-        <div>
-          <p class="section-tag">Contact</p>
-          <h2>Interested in my work or my progress as a designer? Let’s connect.</h2>
-        </div>
-        <div class="contact-actions">
-          <a class="button button-primary" href="mailto:kimberlywamboi8@gmail.com">kimberlywamboi8@gmail.com</a>
-          <p>I am continuing to learn web design and front-end development through creative, practical projects.</p>
-        </div>
-      </div>
-    </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>Kimberly Wambui Portfolio</p>
-      <p>Designed to showcase my work on mobile, tablet, and desktop.</p>
-    </div>
-  </footer>
 </body>
 </html>
+
